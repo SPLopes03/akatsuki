@@ -56,13 +56,25 @@ aside p {
 }
 aside ul {
     list-style-image: url("../images/logo\ aka.png");
-    
+
 }
 aside ul li {
     color: white;
 }
 section {
     grid-area: section;
+}
+section input::placeholder {
+    color: black;
+}
+section h2 {
+    margin: 0%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+section div {
+    display: flex;
+    justify-content: center;
 }
 footer {
     grid-area: footer;
