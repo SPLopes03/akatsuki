@@ -7,12 +7,36 @@ body {
 grid-template-columns: 25vw 25vw 25vw 25vw;
 grid-template-rows: 8vh 25vh 60vh 10vh;
 margin: 0;
+cursor: url('../images/kunai.png'), default;
+background: #ba131a;
 }
+
 header {
     grid-area: header;
 }
+
 nav {
+    display: flex;
     grid-area: nav;
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgb(56, 59, 47);
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+}
+
+nav > img{
+    width: 55px; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(186, 19, 26);
+    cursor: url("../images/kunai.png"), default;
 }
 aside {
     grid-area: aside;
