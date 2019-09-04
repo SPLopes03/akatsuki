@@ -8,3 +8,18 @@ grid-template-columns: 25vw 25vw 25vw 25vw;
 grid-template-rows: 8vh 25vh 60vh 10vh;
 margin: 0;
 }
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+aside {
+    grid-area: aside;
+}
+section {
+    grid-area: section;
+}
+footer {
+    grid-area: footer;
+}
