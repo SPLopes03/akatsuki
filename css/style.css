@@ -4,8 +4,8 @@ body {
                          'header header header aside'
                          'section section section aside'
                          'footer footer footer footer';
-grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 25vh 60vh 10vh;
+grid-template-columns: 24.6vw 24.6vw 24.6vw 24.6vw;
+grid-template-rows: 8vh 80vh 60vh 10vh;
 margin: 0;
 cursor: url('../images/kunai.png'), default;
 background: #ba131a;
@@ -13,6 +13,8 @@ background: #ba131a;
 
 header {
     grid-area: header;
+    background-image: url("../images/akats.png");
+    background-size: cover;
 }
 
 nav {
@@ -40,6 +42,24 @@ nav a:hover{
 }
 aside {
     grid-area: aside;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4e4d4d;
+}
+aside h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+aside p {
+    font-family: 'Montserrat', sans-serif;
+}
+aside ul {
+    list-style-image: url("../images/logo\ aka.png");
+    
+}
+aside ul li {
+    color: white;
 }
 section {
     grid-area: section;
